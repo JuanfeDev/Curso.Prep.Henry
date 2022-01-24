@@ -1,0 +1,13 @@
+---------------------------------------------VARIABLE-------------------------------------------
+es una canasta de ropa en la cual podemos guardar camisas, pantalonetas entre otras para despues darle un uso
+-------------------------------------Instrumentos de cuerda --------------------------------------------
+palabras que agregamos a una variable y podemos almacenar con signo de comilla simple ' o doble ".
+------------------------------------Funciones (argumentos, return)------------------------------------
+es la manera y como, en la que queremos usar/almacenar  la ropa  del canasto. 
+ejemplo botar, sacar ropa o lavarla del canasto
+-----------------------------------------Declaraciones if----------------------------------------------
+se usa para tomar decisiones, o  validar si una expresion se cumple.
+ejemplo
+validacion de numero, si la palabra es igual entre otras.
+--------------------------------Valores booleanos ( true, false)----------------------------------------
+es el resultado que nos ayuda a definir si una condicon se esta cumpliendo o no.

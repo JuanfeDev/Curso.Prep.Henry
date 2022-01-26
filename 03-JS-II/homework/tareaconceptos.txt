@@ -1,0 +1,46 @@
+// Definir  conceptos 
+-----------------------------  for  ----------------------- 
+es un bucle el cual utilizamos para repetir una o mas instrucciones una cantidad de veces finitas,
+se suele utilizar cuando sabemos el numero de veces que queremos que se realice.           
+&&, ||, ! se les llaman operadores logicos, panita, para que entiendas basicamente significan
+&& = "y" "and" in english.
+|| = O, OR in english.
+!  = No, Not in english.
+----------------------------  && --------------------------
+panita, esto lo que va  a hacer es revisar y evaluar las expresiones que utilizamos y posterior nos va 
+a responder en boleeano si ambas o no son "verdaderas (true) o son mas falsas que promesaas de campaña (false), si todas son ...
+verdaderas nos repondera con el true y en cualquier otro caso si no son nos respondera falso.
+ejemplo :
+   if (100 > 10 && 10 === 10) {
+       console.log ("Ambas declaraciones son ciertas, este codigo se ejecutara");
+   }
+   if (10 === 9 && 10 > 9) {
+       console.log ("Una de las declaraciones es false, por lo que && devolvera false, y este codigo no se ejecutara");
+   }
+ ---------------------------- || --------------------------
+ y siguiendo una dinamica similar tenemos estos dos palitos que se escriben de manera vetical (paraditos), la mayoria de veces esta vaina...
+ se utiliza en declaraciones .if. y este operador "Or"  revisara nuestra operacion (operandos) de izquierda a derecha ...
+ este nos nos dira si una de las expresiones es true. Retornara true si mas de una es verdadera. Devolvera false si ambas 
+ expresiones son falsas
+ ejemplo : 
+           if (100 > 10 || 10 === 10 ) {
+            console.log ("Ambas declaraciones son ciertas, este codigo se ejecutara");
+ }
+            if (10 === 9 || 10 > 9) {
+                console.log ("Una de las declaraciones es true, por lo que || devolvera true y este codigo se ejecutara");
+    }
+                if (10 === 9 || 1 > 9) {
+                 console.log ("Ambas declaraciones son falsas, por lo que || devolvera false y este codigo no se ejecutara");
+    }
+ ---------------------------  !  ---------------------------
+ este ultimo que se escribe como un signos de exclamacion unico y solo (asi como estuviste "solo" aislado en pandemia) o en ocasiones
+ como un doble Not !! (asi como cuando tu mama te grita que no te vayas a trepar al arbol). este operador acepta un solo argumento y
+ convierte el operando a tipo bolean (true/false) y retorna el valor contrario.
+ para que entiendas mas clarito tr va este ejemplo :
+               if (!false) {
+                  console.log ("El ! devolvera true, porque es lo contrario de false, asi que este codigo se ejecutara");
+                  }
+                 if (!(1 === 1)) {
+                   console.log ("1 es igual a 1, de modo que la expresion devuelve true, el operador ! devolvera lo contrario de eso, por lo que este codigo NO se ejecutara");
+                    }
+  bro, eso es todo por ahora...
